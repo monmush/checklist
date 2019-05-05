@@ -6,7 +6,7 @@
     height: 100vh;
 }
 .Grid{
-    width: 80%;
+    width: 55%;
     margin: 0 auto;
 }
 
@@ -16,4 +16,8 @@
     display: block;  
     font-weight: bold;
     color: #1D3557;
+}
+.Items{
+    border: 1px solid black;
+    width: 100%;
 }
