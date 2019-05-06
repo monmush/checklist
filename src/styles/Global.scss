@@ -6,7 +6,7 @@
     height: 100vh;
 }
 .Grid{
-    width: 55%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -17,7 +17,10 @@
     font-weight: bold;
     color: #1D3557;
 }
-.Items{
-    border: 1px solid black;
-    width: 100%;
+
+h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 1em;
 }

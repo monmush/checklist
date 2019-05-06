@@ -3,6 +3,7 @@ import '../styles/Export.scss';
 import Todos from '../components/Todos/Todos'
 import AddItems from '../components/AddItems/AddItems'
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -11,9 +12,9 @@ class App extends Component {
         {content: "Buy some milk", id:1},
         {content: "Buy coke", id:2},
         {content: "Buy TV", id:3}],
-      content:''
     }
   }
+
 
   deleteItems = (id) => {
     const items = this.state.items.filter(items=>{
@@ -36,11 +37,11 @@ class App extends Component {
     return (
       <div className="App">
       <div className="Grid">
-        <h1>This is a todo application</h1>
+        <h1>Todo application</h1>
         
-        
-        <Todos items = {this.state.items} deleteItems={this.deleteItems}/>
         <AddItems addItems={this.addItems}/>
+        <Todos items = {this.state.items} deleteItems={this.deleteItems}/>
+        
       </div>
       </div>
     );
